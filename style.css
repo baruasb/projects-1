@@ -126,3 +126,45 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+   text-align: left;
+}
+.exp-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exp-dp, .exp-sub-title{
+    color: rgb(121, 117, 117);
+}
+
+.resume hr{
+    margin: 30px;
+}
+.resume-cv{
+    margin-top:50px ;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: antiquewhite;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
